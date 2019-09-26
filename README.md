@@ -1,6 +1,5 @@
 # About
-docker_nmap is a docker image with the last build security scaner nmap.
-
+Docker_nmap is a simple docker image build with the last nmap version.
 
 # How to use it 
 
