@@ -19,4 +19,4 @@ jobs:
     - name: Publish the Docker image in DockerHub
       run: |
         docker login -u zebux -p ${{ secrets.DOCKER_HUB_TOKEN }}
-        docker push zebux/docker_nmap:$(date +%s)
+        docker push zebux/docker_nmap:latest
